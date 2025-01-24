@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Inter";
+    background-color: #CD5D5D;
+}
+.title{
+    
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 77px;
+    text-align: center;
+    color: #fff;
+}
+.sariq{
+    color: #F8FD0D;
+}
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+}
+.header__list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 92px;
+}
+.container{
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header__link{
+    color: #2000e8;
+font-family: "Inter";
+font-size: 15px;
+font-weight: 600;
+line-height: 18px;
+letter-spacing: 0%;
+text-align: center;
+text-decoration-line: underline;
+}
+img{
+    display: block;
+}
+.hero{
+    background-color: #F8FD0D;
+    padding-bottom: 120px;
+    padding-top: 23px;
+
+}
+.hero_item{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    list-style: none;
+    margin-bottom: 101px;
+}
+.hero_wraper{
+   background-color: rgb(1, 1, 1);
+padding: 18ox;
+}
+.hero_title{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 24px;
+font-weight: 700;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: center;
+}
+.hreo_text{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 13px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0%;
+text-align: center;
+}
+.hero_list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
